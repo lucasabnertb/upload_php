@@ -1,12 +1,13 @@
 :root {
   --azul: rgba(97, 104, 236, 0.814);
   --salmao: rgb(250, 130, 136);
+  --font: 'Poppins', sans-serif;
 }
 
 html {
   background: linear-gradient(to right, var(--salmao), var(--azul));
-  text-align: center;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 h1 {
@@ -20,22 +21,47 @@ h1 {
   margin: 0 auto;
 }
 
-form {
-  width: 800px;
-  background: rgba(245, 245, 245, 0.185);
-  margin: 50px auto;
+.form-group {
+  display: block;
+  width: 600px;
+  height: 300px;
+  background: rgba(250, 250, 250, 0.384);
+  margin: 25px auto;
   text-align: center;
-  padding: 35px;
   border-radius: 15px;
   font-size: 22px;
-  border: 3px dashed whitesmoke;
+  padding: 5px;
+  border: 3px dashed rgb(255, 255, 255);
+
+}
+
+.img {
+  margin: 75px auto;
+  width: 150px;
+  opacity: 35%;
+
 }
 
 .input {
   display: none;
-  /* font-size: 18px;
+}
+
+.btn-submit {
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background: rgb(99, 32, 207);
+  padding: 10px 50px;
   border: none;
-  border-radius: 15px;
-  background: black;
-  color: whitesmoke;*/
+  border-radius: 25px;
+
+}
+
+.btn-submit:hover {
+  background-color: rgb(54, 17, 112);
+}
+
+.btn-submit:active:focus {
+  border: 2px solid gold;
 }
