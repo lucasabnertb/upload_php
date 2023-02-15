@@ -1,0 +1,41 @@
+:root {
+  --azul: rgba(97, 104, 236, 0.814);
+  --salmao: rgb(250, 130, 136);
+}
+
+html {
+  background: linear-gradient(to right, var(--salmao), var(--azul));
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin: 100px auto 50px auto;
+  color: whitesmoke;
+}
+
+.caixa {
+  width: 940px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+form {
+  width: 800px;
+  background: rgba(245, 245, 245, 0.185);
+  margin: 50px auto;
+  text-align: center;
+  padding: 35px;
+  border-radius: 15px;
+  font-size: 22px;
+  border: 3px dashed whitesmoke;
+}
+
+.input {
+  display: none;
+  /* font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  background: black;
+  color: whitesmoke;*/
+}

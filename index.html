@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload PHP</title>
+  <link rel="stylesheet" href="./style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1>Form de upload de arquivos em PHP</h1>
+
+  <section class="caixa">
+      <form action="./upload.php" enctype="multipart/form-data" method="POST">
+          <div class="form-group">
+              <input class="input" name="arquivo" type="file">
+              <span class="help-block"><br>Selecione seu arquivo Tamanho máximo: 2MB<br></span>
+          </div>
+
+          <div class="form-group">
+              <button class="btn btn-inverse" type="submit">Enviar</button>
+          </div>
+      </form>
+  </section>
+  
+</body>
+</html>
