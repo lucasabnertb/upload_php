@@ -51,9 +51,10 @@ h1 {
   box-shadow: 0 0 15px black;
 }
 
+/*
 #input {
   display: none;
-}
+}*/
 
 .btn-submit {
   font-family: var(--font);
